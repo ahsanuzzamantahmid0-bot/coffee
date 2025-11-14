@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caffé Aurelia — Taste the Art of Coffee</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (for social icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div class="preloader">
+    <div class="coffee-loader"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Caffé <span>Aurelia</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#contact-1750">Connect With Us</a></li>
+        <li><a href="#contact">Explore</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Have a Sip of Heaven<span></span></h1>
+      <p class="hero-sub">Always refreshing, rich, and exceptional.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="story" class="about">
+    <h2>Our Story</h2>
+    <div class="about-content-wrapper">
+      <div class="about-text">
+        <p>
+         At Caffé Aurelia, we believe that a café is more than just a place to enjoy a great cup of coffee — it’s a community. We founded this café not for profit, but to create a space where people can feel seen, valued, and part of something bigger.<br><br>
+         We proudly hire individuals from diverse backgrounds, including those with disabilities and people who have faced homelessness, giving them meaningful work and a sense of belonging. Here, everyone is part of our family. Our mission is simple: to serve not just coffee, but care, respect, and opportunity.<br><br>
+         At Caffé Aurelia, every cup tells a story of compassion, inclusion, and community.
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="assets/72.webp" alt="Barista pouring coffee">
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section id="menu" class="menu reveal">
+    <h2>Signature Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="assets/1.jpeg" alt="Espresso">
+        <h3>Velvet Espresso</h3>
+        <p>Rich and bold with caramel undertones.</p>
+        <span class="price"></span>
+      </div>
+
+      <div class="menu-item">
+        <img src="assets/81.avif" alt="Cappuccino">
+        <h3>Golden Cappuccino</h3>
+        <p>Creamy foam topped with a hint of cocoa.</p>
+        <span class="price"></span>
+      </div>
+
+      <div class="menu-item">
+        <img src="assets/4.jfif" alt="Pastry">
+        <h3>Almond Croissant</h3>
+        <p>Freshly baked with a buttery crisp texture.</p>
+        <span class="price"></span>
+      </div>
+
+      <div class="menu-item">
+        <img src="assets/7.jpg" alt="Latte">
+        <h3>Vanilla Latte</h3>
+        <p>Silky smooth coffee with vanilla aroma.</p>
+        <span class="price"></span>
+      </div>
+
+      <div class="menu-item">
+        <img src="assets/13.jfif" alt="Mocha">
+        <h3>Mocha Delight</h3>
+        <p>Chocolatey heaven with espresso kick.</p>
+        <span class="price"></span>
+      </div>
+
+      <a href="full-menu.html" class="menu-item cta-item">
+        <img src="assets/15.png">
+        <div class="cta-content">
+          <h3>See Our Full Menu</h3>
+          <p>Explore all our coffees, pastries & delights</p>
+        </div>
+      </a>
+    </div>
+  </section>
+<!-- MESSAGE FORM SECTION -->
+<!-- Contact  -->
+
+<section id="contact-1750">
+    <div class="cs-container">
+        <div class="cs-form-group">
+            <div class="cs-content">
+                <span class="cs-topper">Get in Touch</span>
+                <h2 class="cs-title">Contact Us</h2>
+            </div>
+            <!--Form-->
+            <form class="cs-form" id="cs-form-1750" name="Contact Form" method="post">
+                <label class="cs-label">
+                    Name *
+                    <input class="cs-input" required type="text" id="name-1750" name="name" placeholder="">
+                </label>
+                <label class="cs-label cs-email">
+                    Email *
+                    <input class="cs-input" required type="email" id="email-1750" name="email" placeholder="name@company.com">
+                </label>
+                <label class="cs-label cs-phone">
+                    Phone *
+                    <input class="cs-input" required type="phone" id="phone-1750" name="phone" placeholder="">
+                </label>
+                <label class="cs-label">
+                    Message *
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-1750" placeholder="Hello, I am interested..."></textarea>
+                </label>
+                <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+            </form>
+        </div>
+        <!--Contact Info-->
+        <div class="cs-info-group">
+            <div class="cs-info">
+                <span class="cs-topper">Location</span>
+                <span class="cs-detail">Birmingham City University<br>University</span>
+            </div>
+            <div class="cs-info">
+                <span class="cs-topper">Working Hours</span>
+                <span class="cs-detail">Monday - Saturday: 10:00 - 20:00</span>
+                <span class="cs-detail">Sunday: Closed</span>
+            </div>
+            <div class="cs-info">
+                <span class="cs-topper">Contact</span>
+                <span class="cs-detail">M: +99 40 70 929</span>
+                <span class="cs-detail">E: ahsanuzzamantahmid8@gmail.com.</span>
+            </div>
+        </div>
+    </div>
+
+   <div class="cs-picture-group">
+  <!-- Updated Google Map: Birmingham City University -->
+  <iframe class="cs-iframe"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.224969682018!2d-1.8849013842054233!3d52.48135197980554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc8a02f3df1b%3A0x8edfd94d5f3a7c4!2sBirmingham%20City%20University!5e0!3m2!1sen!2suk!4v1730918459432!5m2!1sen!2suk"
+    width="600" height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <!-- Light graphics -->
+  <img class="cs-graphic cs-top cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-light.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async">
+  <img class="cs-graphic cs-left cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-light.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async">
+  <img class="cs-graphic cs-bottom cs-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-light.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async">
+
+  <!-- Dark graphics -->
+  <img class="cs-graphic cs-top cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-dark.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async">
+  <img class="cs-graphic cs-left cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-dark.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async">
+  <img class="cs-graphic cs-bottom cs-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-dark.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async">
+</div>
+
+
+</section>
+                                
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="contact-top">
+      <div class="contact-column">
+        <h3>About us</h3>
+        <ul>
+          <li>Our coffees</li>
+          <li>Our story</li>
+          <li>Sustainability</li>
+          <li>Costa Foundation</li>
+          <li>Policies and reports</li>
+          <li>Modern Slavery Statement</li>
+          <li>Download our app</li>
+        </ul>
+      </div>
+
+      <div class="contact-column">
+        <h3>Dietary Information</h3>
+        <ul>
+          <li>Nutrition & allergens</li>
+          <li>Store dietary information</li>
+          <li>Branded products dietary information</li>
+          <li>Costa Express dietary information</li>
+          <li>Ready to drink dietary information</li>
+          <li>Costa at home dietary information</li>
+        </ul>
+      </div>
+
+      <div class="contact-column">
+        <h3>Gifting</h3>
+        <ul>
+          <li>Gift cards</li>
+          <li>Gift cards for business</li>
+        </ul>
+      </div>
+
+      <div class="contact-column">
+        <h3>For Business</h3>
+        <ul>
+          <li>Coffee solutions</li>
+          <li>What we offer</li>
+          <li>Business inquiries</li>
+          <li>About us</li>
+        </ul>
+      </div>
+
+    <div class="contact-column">
+  <h3>Contact us</h3>
+  <ul>
+    <li>FAQs</li>
+    <li>Contact us</li>
+    <li>Press</li>
+    <li>Careers</li>
+  </ul>
+
+  <!-- Instagram link below the list -->
+  <div class="contact-instagram">
+    <a href="https://www.instagram.com/am_tahmid?igsh=c3Rib3cxa2w4cGZx" target="_blank">
+      <i class="fab fa-instagram"></i> Caffé Aurelia
+    </a>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="policies">
+      <span>Privacy policy</span>
+      <span>Cookie policy</span>
+      <span>Terms and conditions</span>
+    </div>
+    <p class="copyright">© 2025 Caffé Aurelia. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
